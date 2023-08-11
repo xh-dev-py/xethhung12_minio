@@ -4,19 +4,12 @@ build-backend = "hatchling.build"
 
 [project]
 name = "xethhung12_minio"
-version = "0.0.1"
+version = "0.0.2"
 description = "A small program for downloading and uploading file to minio storage"
 readme = "README.md"
 requires-python = ">=3.7"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-]
-dependencies = [
-    "minio>=7.1.15",
-]
-
+classifiers = [ "Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent",]
+dependencies = [ "minio>=7.1.15",]
 [[project.authors]]
 name = "Xeth Hung"
 email = "admin@xethh.me"
