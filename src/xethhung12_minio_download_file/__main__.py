@@ -8,7 +8,10 @@ import os
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         prog='Upload file to minio',
-        description='The command download file from minio',
+        description="""The command download file from minio.
+If the client is behind proxy, please set environment variable http_proxy for the proxy server.
+e.g. `set http_proxy=http://proxy:8080`
+""",
     )
     parser.add_argument('--url', help='the host url')
     parser.add_argument('--access-key', help='the access-key')
