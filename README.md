@@ -1,3 +1,11 @@
+# This project is not maintained anymore. Please go for
+
+- [xethhung12_minio_common](https://github.com/xh-dev-py/xethhung_minio_common)
+- [xethhung12_minio_download_file](https://github.com/xh-dev-py/xethhung12_minio_download_file)
+- [xethhung12_minio_upload_file](https://github.com/xh-dev-py/xethhung12_minio_upload_file)
+
+---
+
 # Build and deploy
 ```shell
 rm -fr dist/*
